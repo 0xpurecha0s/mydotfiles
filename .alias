@@ -1,0 +1,9 @@
+# Variables
+
+alias youtune='youtube-dl --output /home/$USER/Downloads/Videos/%\(title\)s.%\(ext\)s --extract-audio --audio-format mp3'
+alias youmusic='youtube-dl --output /media/$USER/Downloads/Music/%\(title\)s.%\(ext\)s --extract-audio --audio-format mp3'
+alias maintain='$HOME/.scripts/maintain.sh'
+alias routrst='python2.7 /home/$USER/.scripts/routrst.py'
+alias ctc="xclip -sel clipboard"
+alias tmux="tmux -u"
+
